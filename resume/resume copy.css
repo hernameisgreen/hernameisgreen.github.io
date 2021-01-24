@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "neue_montrealbold";
+  src: url("fonts/neuemontreal-bold-webfont.woff2") format("woff2"),
+    url("fonts/neuemontreal-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "neue_montrealregular";
+  src: url("fonts/neuemontreal-regular-webfont.woff2") format("woff2"),
+    url("fonts/neuemontreal-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neue_montrealmedium';
+  src: url('fonts/neuemontreal-medium-webfont.woff2') format('woff2'),
+       url('fonts/neuemontreal-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+ /*  background-color:yellow; */
+  background-color:whitesmoke;
+  overflow-x:hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "neue_montrealregular", aileron, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.nav-bar {
+  background-color: transparent !important;
+  display:flex;
+  flex-direction: column-reverse;
+}
+.title {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #2a9d8f;
+  background-image: url("image/noise.png");
+  color: whitesmoke;
+}
+.nav-link {
+  color: #264653 !important;
+  text-transform: uppercase;
+  flex-direction: column-reverse;
+  font-family: "neue_montrealmedium","aileron", sans-serif, monospace;
+}
+.top-cap {
+  margin: 0;
+  padding: 0;
+  margin-top:10rem;
+  font-size: 6rem;
+  font-family: "neue_montrealregular", "aileron", sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+
+
+
+}
+.top-cap-dsp{
+  font-size:1.5rem;
+}
+
+.outter-nav{
+  justify-content: flex-end;
+}
+.sec-one-row {
+ /*  background-color: red; */
+  height: 100vh;
+  /* width: 100vw; */
+ 
+}
+.left {
+  /* height: 100vh; */
+ 
+ /*  background-color:whitesmoke; */
+  background-color:#e9c46a;
+ /*  margin-left:5rem; */
+ flex-direction: column;
+ justify-content: space-around;
+ padding:1rem;
+
+
+}
+.right{
+  background-color:whitesmoke;
+}
+.short-cap{
+font-size:3.5rem;
+}
+
+#about-me {
+  margin-top: 3rem;
+  margin: auto !important;
+  font-size: 50px;
+}
+.line{
+  background-color:black;
+  width: 13rem;
+  height: 0.5rem;
+}
+.short-intro {
+  font-size: 1rem;
+/*   height: 60%;
+  width: 100%; */
+  text-align: justify;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  /* padding-right:3rem; */
+}
+ .intro-cap{
+   font-size: 3rem;
+ /*   padding:2rem; */
+ } 
+
+.intro-box{
+  background-color:purple;
+  width:80%;
+  margin:3rem auto 0 auto;
+}
+
+.intro-cap-desp{
+  text-align: justify;
+  
+}
+.intro-box{
+  display:inline-block;
+}
+.self-wrapper{
+display:flex;
+height:;
+}
+#my-img {
+  height: auto; 
+  width: auto; 
+  max-width:400px; 
+  max-height: 500px;
+  align-self:center;
+  border:0.5rem solid #e76f51;
+  border-radius:50%;
+
+}
+.mid-sec-one {
+  height: 100vh;
+  /* max-width: 100%; */
+  background-color: whitesmoke;
+}
+.short-cap-box2{
+  padding-top:3rem;
+  padding-left:2rem;
+  /* background-color:red; */
+  text-align:left;
+}
+.mid-sec-two {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: whitesmoke;
+}
+.mid-sec-two-row{
+  height:70vh;
+  width:100vw;
+  background-color:greenyellow;
+  margin-top:3rem;
+  font-size:30px;
+  /* display:flex; */
+ /*  justify-content:space-between; */
+}
+#back{
+  display:inline-block;
+}
+.card{
+border:none;
+background-color:whitesmoke;
+font-size:30px;
+}
+li{
+  font-size:25px;
+  text-align:center;
+}
+
+.card-header{
+  background-color:#e76f51;
+  text-transform: uppercase;
+  font-size:30px;
+  text-align:center;
+  height:200px;
+  width:300px;
+}
+.list-group-item{
+  background-color: #eee;
+  width:300px;
+}
+#skills{
+  margin-top: 3rem;
+  font-size: 50px;
+  margin:auto;
+  
+}
+.mid-sec-three {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: whitesmoke;
+}
+.foot {
+  height: 40vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: black;
+  color:whitesmoke;
+  text-align:center;
+}

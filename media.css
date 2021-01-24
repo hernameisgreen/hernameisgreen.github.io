@@ -1,0 +1,394 @@
+@media (max-width: 330px) {
+    body {
+      overflow-x: hidden ;
+    }
+    .mid-sec-five {
+      padding: 0;
+    }
+    
+  }
+@media (max-width: 400px) {
+  .mid-sec-one,
+  .mid-sec-two,
+  .mid-sec-three,
+  .mid-sec-four {
+    padding: 0 ;
+    height: 100%;
+  }
+  .sec-one-text-box {
+    width: 100% ;
+    text-align: justify;
+  }
+  .bm {
+    height: 32rem ;
+  }
+  .intro-cap {
+    font-size: 2.5rem;
+    padding-left: 0.2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .short-intro {
+    text-align: justify;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+  .mid-sec-two-row {
+    justify-content: center ;
+  }
+  .card {
+    margin-top: 2rem;
+  }
+  .card04 {
+    margin-bottom: 2rem;
+  }
+  .right-element {
+    float: none ;
+  }
+  .timeline-element-box {
+    height: auto ;
+  }
+  .timeline::before {
+    left: 6% ;
+  }
+  #ele-one::after {
+    bottom: 19rem ;
+    left: -3.5rem ;
+  }
+  #ele-two::after {
+    bottom: 13rem ;
+    left: -3.5rem ;
+  }
+  #ele-three::after,
+  #ele-four::after {
+    bottom: 20rem ;
+    left: -3.5rem ;
+  }
+  #ele-five::after {
+    bottom: 21rem ;
+    left: -3.5rem ;
+  }
+  #ele-six::after {
+    bottom: 18rem ;
+    left: -3.5rem ;
+  }
+  #ele-seven::after {
+    bottom: 18rem ;
+    left: -3.5rem ;
+  }
+  #ele-eight::after {
+    bottom: 20rem ;
+    left: -3.5rem ;
+  }
+  #ele-one {
+    margin-top: 2rem;
+  }
+  .element-content {
+    margin-left: 2rem ;
+    width: 80% ;
+  }
+  .mid-sec-four-row {
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  .row-one,
+  .row-two,
+  .row-three {
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: center ;
+  }
+  .row > * {
+    margin-bottom: 2rem ;
+  }
+}
+@media(max-width:500px){
+  .line-five{
+    width:100%;
+  }
+  #my-img{
+    margin-left:6rem!important;
+    height: 10rem;
+    width: 10rem;
+  }
+  .square{
+    height:200px!important;
+    width:200px!important;
+  }
+  .row-one, .row-two, .row-three {
+    margin-left:-7rem!important;
+  }
+  .line{
+    width:18rem;
+  }
+}
+@media (max-width: 900px) {
+  .sec-one-text-box {
+    width: 100% ;
+    text-align: justify;
+  }
+  .short-intro {
+    text-align: justify;
+    margin-top: 2rem;
+    width: 100% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    text-align: unset ;
+  }
+  .top-cap {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5rem ;
+  }
+  .top-cap-dsp {
+    font-size: 1.5rem ;
+    color: var(--dark);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  #my-img {
+    transform: translateX(-10%);
+  }
+  .card {
+    margin-top: 2rem ;
+  }
+  .card-header {
+    width: auto ;
+    height: auto ;
+  }
+  .mid-sec-two-row > * {
+    margin-left: auto ;
+    margin-right: auto ;
+  }
+  .bm {
+    height: 45rem ;
+    margin-top: -10rem ;
+  }
+  .element-content {
+    width: 100% ;
+  }
+  .timeline-element-box {
+    height: auto ;
+    margin-left: 1rem;
+  }
+  .timeline::before {
+    left: 6% ;
+  }
+  .right-element {
+    float: none ;
+  }
+  #ele-one::after, #ele-two::after, #ele-three::after, #ele-four::after, #ele-five::after, #ele-six::after, #ele-seven::after, #ele-eight::after{
+    display:none;
+  }
+  /* #ele-one::after {
+    bottom: 19rem ;
+    left: -3.5rem ;
+  }
+  #ele-two::after {
+    bottom: 13rem ;
+    left: -3.5rem ;
+  }
+  #ele-three::after,
+  #ele-four::after {
+    bottom: 20rem ;
+    left: -3.5rem ;
+  }
+  #ele-five::after {
+    bottom: 21rem ;
+    left: -3.5rem ;
+  }
+  #ele-six::after {
+    bottom: 18rem ;
+    left: -3.5rem ;
+  }
+  #ele-seven::after {
+    bottom: 18rem ;
+    left: -3.5rem ;
+  }
+  #ele-eight::after {
+    bottom: 20rem ;
+    left: -3.5rem ;
+  }
+  #ele-one {
+    margin-top: 2rem;
+  } */
+  .mid-sec-four-row {
+    margin-top: none ;
+    width: auto ;
+  }
+  .four-sub-cap {
+    font-size: 1.3rem ;
+  }
+  .row-one,
+  .row-two,
+  .row-three {
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: center ;
+  }
+  .row > * {
+    margin-bottom: 2rem ;
+  }
+  .pro-block{
+   margin: 0 auto 2rem auto;
+  
+  }
+}
+@media screen and (max-width: 770px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    display: flex;
+    flex-direction: Column;
+    background-color: var(--themeDarker);
+    align-items: center;
+    z-index: 1000;
+    width: 80% ;
+    /*  transform:translateX(100%); */
+    transform: scale(0);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block ;
+    cursor: pointer;
+  }
+  .bm{
+    height: 46rem;
+    margin-top: -10rem;
+  }
+  .sec-one-text-box{
+    width:100%;
+    margin:auto;
+  }
+  #my-img{
+    
+    margin-left:11rem;
+  }
+  .card{
+    margin-bottom:2rem;
+  }
+  #ele-one::after{
+    bottom:21rem;
+    left:22.8rem;
+  }
+  #ele-two::after{
+    bottom:18rem;
+    
+  }
+  #ele-three::after{
+    bottom:23rem;
+    left:22.8rem;
+  }
+  #ele-five::after{
+    bottom:23rem;
+    left:22.8rem;
+  }
+  #ele-seven::after{
+    bottom:21rem;
+    left:22.8rem;
+  }
+  #ele-eight::after{
+    bottom:23rem;   
+}
+.pro-block{
+  margin-left: 10%;
+  margin-bottom: 2rem;
+
+}
+
+}
+@media screen and (max-width: 1025px) {
+  .nav-links {
+    width: 70% ;
+  }
+  .bm{
+    height: 46rem;
+    margin-top: -14.5rem;
+  }
+  .sec-one-text-box{
+    width:100%;
+    margin:auto;
+  }
+  #my-img{
+    margin-left:15rem;
+  }
+  .card{
+    margin-bottom:2rem;
+  }
+  #ele-one::after{
+    bottom:24rem;
+    left:19rem;
+  }
+  #ele-two::after{
+    bottom:18rem;
+    
+  }
+  #ele-three::after{
+    bottom:25rem;
+    left:19rem;
+  }
+  #ele-four::after{
+    bottom:25.5rem;
+  }
+  #ele-five::after{
+    bottom:26rem;
+    left:19.3rem;
+  }
+  #ele-six::after{
+    bottom:21rem;
+  }
+  #ele-seven::after{
+    bottom:21rem;
+    left:19.5rem;
+  }
+  #ele-eight::after{
+    bottom:25rem;   
+}
+.four-sub-cap{
+  font-size: 1rem;
+
+}
+.four-sub-p{
+  font-size:1.5rem;
+}
+.pro-block{
+  /* margin-left: 25%; */
+  margin-bottom: 2rem;
+
+}
+}
+@media (max-width:800px){
+  .square{
+    height:250px;
+    width:250px;
+    margin-left:5rem;
+  }
+  .port-heading{
+    font-size: 1rem;
+  }
+  .hashtag{
+    font-size:0.7rem;
+    width:2rem;
+    height:1rem;
+  }
+  .port-ul{
+    font-size:0.5rem;
+  }
+  .go-icon{
+    transform:scale(0.5);
+  }
+}
