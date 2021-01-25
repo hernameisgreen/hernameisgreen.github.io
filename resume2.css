@@ -337,7 +337,7 @@ nav {
 .mid-sec-three {
   /* height: 100vh; */
   width: 100vw;
-  background-color: var(--theme);
+  background-color: var(--rose);
   padding: 10vh 15vw 10vh 15vw;
 }
 
