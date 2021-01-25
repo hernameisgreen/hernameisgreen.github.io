@@ -108,7 +108,7 @@
 }
 @media(max-width:500px){
   .line-five{
-    width:100%;
+    width: 13rem!important;
   }
   #my-img{
     margin-left:6rem!important;
