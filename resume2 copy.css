@@ -1,21 +1,3 @@
-/* REWRITE BOOTSTRAP SETTING*/
-@media (min-width: 1400px) {
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1040px;
-  }
-}
-.container {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-/* end */
-
 @font-face {
   font-family: "neue_montrealbold";
   src: url("fonts/neuemontreal-bold-webfont.woff2") format("woff2"),
@@ -44,7 +26,7 @@
   --dark: black;
   --light: whitesmoke;
   --rose: #fce6e0;
-  --lemon: #fcee42;
+  --lemon:#fcee42;
   --bear: #a05b3f;
   --theme: #f0eae0;
   --themeDarkest: #1b4638;
@@ -67,10 +49,10 @@
 ::-webkit-scrollbar-track {
   background-color: var(--lightTheme);
 }
-html,
-body {
-  width: 100%;
-  overflow-x: hidden;
+html, body
+{
+width: 100%;
+overflow-x: hidden;
 }
 
 body {
@@ -100,7 +82,7 @@ body {
   padding: 0;
   font-size: 6rem;
   margin-top: 30px;
-  color: var(--themeDarkest);
+  color:var(--themeDarkest);
   align-items: center;
 }
 .top-cap-dsp {
@@ -115,22 +97,23 @@ body {
   height: 50rem;
   margin-top: -12.8rem;
 }
-.navbar-brand {
-  margin-left: 3rem;
-  color: var(--lightTheme) !important;
+.navbar-brand{
+  margin-left:3rem;
+  color:var(--lightTheme)!important;
 }
-.navbar {
-  background: var(--themeDarkest);
+.navbar{
+  background:var(--themeDarkest);
+  
 }
-.nav-item > a {
-  color: var(--lightTheme) !important;
+.nav-item>a{
+  color:var(--lightTheme)!important;
 }
-.nav-item > a:hover {
-  color: var(--lemon) !important;
+.nav-item>a:hover{
+  color:var(--lemon)!important;
 }
-.navbar-toggler-icon {
-  background: url("image/burger.png");
-  background-size: 120%;
+.navbar-toggler-icon{
+  background: url('image/burger.png');
+  background-size:120%;
   background-position: center;
 }
 /* --------------------------- */
@@ -181,7 +164,7 @@ body {
 #my-img {
   height: auto;
   width: auto;
-  width: 70%;
+  width:70%;
   border: 0.5rem solid var(--peach);
   border-radius: 50%;
   margin-right: 100px;
@@ -196,7 +179,7 @@ body {
   width: 100vw;
   height: 100%;
   background-color: var(--rose);
-  /* padding: 10vh 15vw 10vh 15vw; */
+  padding: 10vh 15vw 10vh 15vw;
 }
 .intro-box {
   background-color: var(--rose);
@@ -212,17 +195,16 @@ body {
 /* section two---------------------------------------- */
 .mid-sec-two {
   background-color: var(--theme);
-  /* padding: 10vh 15vw 10vh 15vw; */
+  padding: 10vh 15vw 10vh 15vw;
 }
 .mid-sec-two-row {
-  /*not used*/
   --bs-gutter-x: 0;
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
 .card {
-  /* width: 15rem; */
+  width: 15rem;
   font-size: 1.5rem;
   text-align: center;
   background-color: var(--light);
@@ -278,62 +260,48 @@ body {
 /* third section------------------------- */
 .mid-sec-three {
   /* height: 100vh; */
-  /* width: 100vw; */
+  width: 100vw;
   background-color: var(--rose);
-  /* padding: 10vh 15vw 10vh 15vw; */
+  padding: 10vh 15vw 10vh 15vw;
 }
 
 /* timeline------------------------------- */
 #exps {
   color: var(--dark);
 }
-.timeline-title {
+.timeline-title{
   background: #f7906e;
 }
-.timeline-wrapper {
+.timeline-wrapper{
   min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  width:100%;
+  display:flex;
+  align-items:center;
   justify-content: center;
   padding: 100px 0;
-  color: white;
+  color:white;
 }
 .timeline {
-  /*
-  //////////////////////////not used
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  */
+ width:80%;
+ height: auto;
+ max-width:800px;
+ margin:0 auto;
+ position: relative;
 }
 
 .timeline ul {
   list-style: none;
-  overflow: auto;
-  padding-left: 0;
-  padding:10px 0;
 }
 .timeline ul li {
-  /* padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background: #f7906e; */
-  margin-bottom:15px;
-}
-.timeline-content{
   padding: 20px;
   border-radius: 10px;
-  /* margin-bottom: 20px; */
-  background: #f7906e;
+  margin-bottom: 20px;
+  background:  #f7906e;
 }
-
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
-.timeline-content h2 {
+.timeline-content h2{
   font-size: 2rem;
   font-weight: 600;
   line-height: 40px;
@@ -345,17 +313,16 @@ body {
   font-weight: 300;
 }
 
+
 /* mid-sec-four */
 .mid-sec-four {
   height: 40vh;
   width: 100vw;
-  /* padding: 15vh 15vw 10vh 15vw; */
+  padding: 15vh 15vw 10vh 15vw;
   background-image: url("https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
   /* background-image: url("image/texture-one.jpg"); */
   background-attachment: fixed;
   background-size: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .mid-sec-four-row {
@@ -365,7 +332,7 @@ body {
   height: 20vh;
   width: 50vw;
   color: var(--light);
-  /*  backdrop-filter: blur(10px); */
+ /*  backdrop-filter: blur(10px); */
   text-shadow: -1px 1px darkgrey;
 }
 .dwn-btn {
@@ -378,10 +345,12 @@ body {
 }
 .dwn-btn:hover {
   transform: scale(1.02);
-  background: var(--lemon);
+  background:var(--lemon);
+  
 }
-.dwn-btn:hover a {
-  color: var(--themeDarkest);
+.dwn-btn:hover a{
+  color:var(--themeDarkest);
+  
 }
 .resume-link {
   text-decoration: none;
@@ -440,41 +409,26 @@ body {
   position: absolute;
   opacity: 1;
 }
-.row-1 {
+.row-1{
   padding-top: 3rem;
 }
 .square {
   position: relative;
   background-image: url("https://picsum.photos/400/400/?random=1");
   background-size: cover;
-  /* height: 240px;
-  width: 400px; */
-  max-width: 100%;
-  max-height: 100%;
+  height: 240px;
+  width: 400px;
+  max-width:100%;
+  max-height:100%;
   overflow: hidden;
 }
 
 .square:hover {
-  background-color: var(--rose);
+  background-color: var(--theme);
   background-blend-mode: soft-light;
 }
-.s1 {
-  background-image: url("image/calendar_2.png");
-}
-.s2{
-  background-image:  url("image/pomodoro.png");
-}
-.s3{
-  background-image: url('image/invoice.PNG');
-}
-.s4{
-  background-image: url('image/bestsellers.png');
-}
-.s5{
-  background-image: url('image/analog_clock.png');
-}
-.s6{
-  background-image: url('image/ice_cream_game.PNG');
+.s1{
+  background-image: url('image/calendar_2.png');
 }
 .square:hover .text-box {
   display: block;
@@ -494,14 +448,14 @@ body {
   text-align: left;
 }
 .hashtag {
-  width:100%;
+  width: 3rem;
   height: 2rem;
   background-color: greenyellow;
   border-radius: 20px;
   display: block;
   text-align: center;
   margin-bottom: 1rem;
-  margin-right: 5px;
+  margin-left:1rem;
 }
 .port-ul li {
   list-style: circle;
@@ -535,8 +489,8 @@ body {
 .pro-short-cap {
   padding-top: 100px;
 }
-.pro-block {
-  margin-top: 2rem;
+.pro-block{
+  margin-top:2rem;
   display: flex;
   align-items: center;
   justify-content: center;
