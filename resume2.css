@@ -43,10 +43,10 @@
 :root {
   --dark: black;
   --light: whitesmoke;
-  --rose: #fce6e0;
+  --rose: #ffdbe5;
   --lemon: #fcee42;
   --bear: #a05b3f;
-  --theme: #f0eae0;
+  --theme: #fcfbf6;
   --themeDarkest: #1b4638;
   --lightTheme: #fcfae7;
   --peach: #ffc6a2;
@@ -94,7 +94,16 @@ body {
   color: var(--light);
   padding: 0;
 }
-
+header{
+  background-image: url('pattern.jpg');
+  background-position: center;
+  background-size: contain;
+}
+.top-cap-wrapper{
+  background: #fcfbf6;
+  width: 50rem;
+  margin: auto;
+}
 .top-cap {
   margin: 0;
   padding: 0;
